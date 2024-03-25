@@ -1,0 +1,34 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+@font-face {
+    font-family: 'text-poppins-BI';
+    src: url('src/assets/Fonts/Poppins-BoldItalic.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'text-montserrat';
+    src: url('src/assets/Font/Montserrat-Italic-VariableFont_wght.ttf') format('ttf');
+}
+
+
+.text-poppins-BI {
+    font-family: 'text-poppins-BI', sans-serif;
+}
+
+.text-montserrat {
+    font-family: 'text-montserrat', sans-serif;
+}
+
+
+.clip-Hero{
+    clip-path: polygon(46% 90%, 12% 51%, 22% 6%, 89% 6%, 74% 53%);
+}
+.clip-Bubble{
+   clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+}
+.clip-Circle{
+    clip-path: circle()
+}
