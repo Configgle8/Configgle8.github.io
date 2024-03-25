@@ -1,0 +1,35 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./src/**/*.html",
+    "./src/**/*.js",
+    "./src/**/*.jsx",
+    "./src/**/*.css",
+  ],
+  
+  theme: {
+    extend: {
+      backgroundImage: {
+        'gradient-darkblue': 'linear-gradient(to right, #000428, #004e92)',
+        'gradient-radial': 'radial-gradient(circle, #4f52ff, #1a1a1a)',
+      },
+      colors: {
+        chocolate: "#481620",
+        darkBrown: '#1F0A0E',
+        vanilla: '#F2E29F',
+        bistre: '#301C0D'
+      },
+      animation: {
+        'bounce-slow': 'bounce 3s infinite',
+      },
+      keyframes: {
+        bounce: {
+          '0%, 100%': { transform: 'translateY(-25%)', animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)' },
+          '50%': { transform: 'translateY(0)', animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)' }
+        }
+      }
+    }
+  },
+  plugins: [],
+}
+

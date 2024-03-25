@@ -1,10 +1,10 @@
 import React from 'react';
-import htmlLogo from 'C:/Users/tyans/Documents/practice projects/PortfolioTemp/portfolio-vite/src/assets/svg/HtmlLogo.svg'
-import reactLogo from 'C:/Users/tyans/Documents/practice projects/PortfolioTemp/portfolio-vite/src/assets/svg/ReactLogo.svg'
-import cssLogo from 'C:/Users/tyans/Documents/practice projects/PortfolioTemp/portfolio-vite/src/assets/svg/CssLogo.svg'
-import framerLogo from 'C:/Users/tyans/Documents/practice projects/PortfolioTemp/portfolio-vite/src/assets/svg/FramerLogo.svg'
-import jsLogo from 'C:/Users/tyans/Documents/practice projects/PortfolioTemp/portfolio-vite/src/assets/svg/JsLogo.svg'
-import twLogo from 'C:/Users/tyans/Documents/practice projects/PortfolioTemp/portfolio-vite/src/assets/svg/TwLogo.svg'
+import htmlLogo from '/src/assets/svg/HtmlLogo.svg'
+import reactLogo from '/src/assets/svg/ReactLogo.svg'
+import cssLogo from '/src/assets/svg/CssLogo.svg'
+import framerLogo from '/src/assets/svg/FramerLogo.svg'
+import jsLogo from '/src/assets/svg/JsLogo.svg'
+import twLogo from '/src/assets/svg/TwLogo.svg'
 
 
 
