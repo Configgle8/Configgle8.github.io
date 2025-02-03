@@ -1,1 +1,1 @@
-This is my portfolio (W.I.P)
+This is my finishe portfolio.

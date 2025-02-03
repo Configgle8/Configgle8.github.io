@@ -76,7 +76,7 @@ export default function AboutPage() {
           <div className="flex justify-center">
             <motion.div whileHover={{ scale: 1.1 }}>
               <Button asChild className="text-sans bg-rose-700 text-white px-6 py-3 font-bold rounded-md hover:bg-rose-900 transition">
-                <a href="/contact">LET'S CONNECT</a>
+                <a href="/contact">LET&apos;S CONNECT</a>
               </Button>
             </motion.div>
           </div>

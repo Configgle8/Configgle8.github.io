@@ -41,7 +41,7 @@ export default function Home() {
                 <NavigationMenuContent className="absolute left-0 mt-1 bg-white shadow-lg rounded-lg border border-gray-200 p-3 w-auto min-w-max">
                   <div className="space-y-2">
                     <h3 className="font-serif text-lg font-semibold text-gray-800">Get to Know Me!</h3>
-                    <p className="font-sans text-sm text-gray-600">I'm a passionate IT & HR professional.</p>
+                    <p className="font-sans text-sm text-gray-600">I&apos;m a passionate IT & HR professional.</p>
                     <Link href="/about" passHref legacyBehavior>
                       <NavigationMenuLink className="font-sans block text-center px-4 py-2 text-white bg-rose-700 hover:bg-rose-900 rounded-md transition shadow-md hover:shadow-lg">
                         Learn More →
@@ -76,7 +76,7 @@ export default function Home() {
                 </NavigationMenuTrigger>
                 <NavigationMenuContent className="absolute left-0 mt-1 bg-white shadow-lg rounded-lg border border-gray-200 p-3 w-auto min-w-max">
                   <div className="space-y-2">
-                    <h3 className="font-serif text-lg font-semibold text-gray-800">Let's Connect!</h3>
+                    <h3 className="font-serif text-lg font-semibold text-gray-800">Let&apos;s Connect!</h3>
                     <p className="font-sans text-sm text-gray-600">Get in touch for collaboration and inquiries.</p>
                     <Link href="/contact" passHref legacyBehavior>
                       <NavigationMenuLink className="font-sans block text-center px-4 py-2 text-white bg-rose-700 hover:bg-rose-900 rounded-md transition shadow-md hover:shadow-lg">
