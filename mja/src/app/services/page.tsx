@@ -26,7 +26,7 @@ export default function ServicesPage() {
     ];
 
     return (
-        <section className="relative min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-red-700 via-rose-600 to-rose-900 p-8">
+        <section className="relative min-h-screen flex flex-col items-center justify-center bg-gradient-to-br from-red-700 via-rose-600 to-rose-900 p-6 sm:p-8">
             
             {/* Floating Background Elements */}
             <motion.div 
@@ -56,22 +56,22 @@ export default function ServicesPage() {
                     </motion.div>
                 </DialogTrigger>
 
-                {/* Dialog Content - Glassmorphic Style */}
-                <DialogContent className="p-8 w-[90vw] md:w-[60vw] max-w-4xl bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl">
+                {/* Dialog Content - Now Properly Sized for Small Screens */}
+                <DialogContent className="w-full max-w-[95vw] sm:max-w-[80vw] md:max-w-[60vw] lg:max-w-3xl p-4 sm:p-6 bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl mx-auto overflow-hidden">
                     
                     {/* Title */}
-                    <DialogTitle className="text-2xl font-bold font-serif text-white">Our Services</DialogTitle>
+                    <DialogTitle className="text-lg sm:text-xl font-bold font-serif text-white text-center">Our Services</DialogTitle>
 
-                    {/* Carousel with Defined Services */}
-                    <Carousel orientation="horizontal" className="w-full max-w-lg mx-auto">
+                    {/* Carousel - Fully Responsive */}
+                    <Carousel orientation="horizontal" className="w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg mx-auto">
                         <CarouselContent className="-mt-1">
                             {services.map((service, index) => (
                                 <CarouselItem key={index} className="pt-1 md:basis-full">
                                     <div className="p-2">
                                         <Card className="bg-white/10 backdrop-blur-lg shadow-lg border border-white/20 rounded-lg">
-                                            <CardContent className="flex flex-col items-center justify-center w-full p-6 text-center">
-                                                <h3 className="text-xl font-semibold text-white font-serif">{service.title}</h3>
-                                                <p className="text-gray-300 mt-2 font-sans">{service.description}</p>
+                                            <CardContent className="flex flex-col items-center justify-center w-full p-4 text-center">
+                                                <h3 className="text-lg font-semibold text-white font-serif">{service.title}</h3>
+                                                <p className="text-gray-300 mt-2 font-sans text-sm">{service.description}</p>
                                             </CardContent>
                                         </Card>
                                     </div>
@@ -83,10 +83,10 @@ export default function ServicesPage() {
                     </Carousel>
 
                     {/* Contact Button */}
-                    <div className="mt-6 flex justify-center">
+                    <div className="mt-4 flex justify-center">
                         <motion.div whileHover={{ scale: 1.1 }}>
                             <Link href="/contact">
-                                <Button className="font-sans bg-rose-700 text-white px-6 py-3 rounded-md hover:bg-rose-900 transition">
+                                <Button className="font-sans bg-rose-700 text-white px-4 py-2 rounded-md hover:bg-rose-900 transition text-sm">
                                     Contact Us
                                 </Button>
                             </Link>
