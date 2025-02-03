@@ -9,6 +9,10 @@ export default {
   ],
   theme: {
   	extend: {
+		fontFamily: {
+			sans: ["var(--font-sans)", "sans-serif"],  // Inter as sans font
+			serif: ["var(--font-serif)", "serif"],  // Merriweather as serif font
+		  },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
